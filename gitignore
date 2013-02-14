@@ -1,0 +1,15 @@
+creamos un archivo .gitignore
+
+$ touch .gitignore
+
+agregamos este contenido a .gitignore
+
+.DS_Store
+log/*.log
+tmp/**/*
+config/database.yml
+db/*.sqlite3
+
+
+
+$touch tmp/.gitignore log/.gitignore vendor/.gitignore
